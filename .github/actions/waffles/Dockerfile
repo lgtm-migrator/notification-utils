@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM python:3.9@sha256:475fe86ebf1da48ea27009a8f7d7e96231af4142de918a68010d48d0abb9c9c5
+FROM python:3.11.0@sha256:b941b836b18734f4992a168b579b7c16ff4c3b544782953eeab3a590a7338765
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 RUN mkdir app
